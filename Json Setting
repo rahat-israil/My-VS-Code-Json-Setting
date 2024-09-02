@@ -1,62 +1,85 @@
 {
-    "editor.fontFamily": "Operator Mono, Fira Code",
-    "editor.fontSize": 17,
-    "editor.tabSize": 1,
-    "editor.wordWrap": "on",
-    "editor.cursorSmoothCaretAnimation": true,
-    "editor.cursorBlinking": "expand",
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "editor.formatOnType": true,
-    "workbench.colorCustomizations": {
-      "editorGroupHeader.tabsBackground": "#0F0928",
-      "activityBar.background": "#0F0928",
-      "sideBar.background": "#091c29",
-      "minimap.background": "#351834",
-      "tab.activeBackground": "#144221",
-      "tab.inactiveBackground": "#23110f",
-      "terminal.border": "#3e1d42",
-      "terminal.background": "#1b1b3c",
-      "statusBar.background": "#2d0f0c",
-      "scrollbarSlider.background": "#056505",
-      "scrollbarSlider.hoverBackground": "#706fd3"
-    },
-    "editor.tokenColorCustomizations": {
-      "comments": "#7b3227e8"
-    },
-    "editor.linkedEditing": true,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": true,
-    "editor.guides.bracketPairsHorizontal": true,
-    "editor.hover.enabled": false,
-    "window.zoomLevel": 1,
-    
-    "tabnine.experimentalAutoImports": true,
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Learn with Sumit Theme - Dracula version",
-    //"workbench.colorTheme": "Learn with Sumit - Professional",
-    //"workbench.colorTheme": "Learn with Sumit Official Theme",
-    "workbench.editor.enablePreview": false,
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.fontSize": 15,
-    "diffEditor.wordWrap": "on",
-    "security.workspace.trust.untrustedFiles": "open"
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 10,
-    
-    // Live Server 
-    "liveServer.settings.CustomBrowser": "chrome",
-    
-    // Prettier Config
-    "prettier.proseWrap": "always",
-    "prettier.singleQuote": true,
-    "prettier.arrowParens": "avoid",
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
-          },
-      "[css]": {
-      "editor.defaultFormatter": "vscode.css-language-features"
-          },
-  
+  "editor.fontFamily": "Operator Mono, Fira Code",
+  "editor.fontSize": 17,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "workbench.colorCustomizations": {
+    // Learn with Sumit Theme - Dracula version
+    "editorGroupHeader.tabsBackground": "#08031d",
+    "activityBar.background": "#09041f",
+    "sideBar.background": "#05121a",
+    "minimap.background": "#09092fd0",
+    "tab.activeBackground": "#144221",
+    "tab.inactiveBackground": "#23110f",
+    "terminal.border": "#381e3a",
+    "terminal.background": "#05121a",
+    "statusBar.background": "#2d0f0c",
+    "scrollbarSlider.background": "#0f580f",
+    "scrollbarSlider.hoverBackground": "#706fd3",
+    "editor.background": "#05121a42",
+    "breadcrumb.background": "#000000"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#b83d3da0"
+  },
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.hover.enabled": false,
+  "window.zoomLevel": 1,
+
+  "tabnine.experimentalAutoImports": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Learn with Sumit Theme - Dracula version",
+  //"workbench.colorTheme": "Learn with Sumit - Professional",
+  "workbench.editor.enablePreview": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontSize": 15,
+  "diffEditor.wordWrap": "on",
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 10,
+
+  // Live Server
+  "liveServer.settings.CustomBrowser": "chrome",
+
+  // Prettier Config
+  "prettier.proseWrap": "always",
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "avoid",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "auto-close-tag.activationOnLanguage": [
+
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "plist"
+  ]
 }
