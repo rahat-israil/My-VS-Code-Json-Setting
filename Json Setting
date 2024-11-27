@@ -1,7 +1,8 @@
 {
-  "editor.fontFamily": "Operator Mono, Fira Code",
-  "editor.fontSize": 17,
-  "editor.tabSize": 2,
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,                
   "editor.wordWrap": "on",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
@@ -9,24 +10,52 @@
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
   "workbench.colorCustomizations": {
-    // Learn with Sumit Theme - Dracula version
-    "editorGroupHeader.tabsBackground": "#08031d",
+    // Background color for the editor group tabs (file tabs in the editor)
+    "editorGroupHeader.tabsBackground": "#011627",
+    // Background color of the Activity Bar (on the left, containing Explorer, Source Control, etc.)
     "activityBar.background": "#09041f",
-    "sideBar.background": "#05121a",
+    // Background color of the Sidebar (Explorer, Search, etc.)
+    "sideBar.background": "#011627",
+    // Background color of the minimap (overview map on the right)
     "minimap.background": "#09092fd0",
+    // Background color of the active tab in the editor
     "tab.activeBackground": "#144221",
+    // Background color of the inactive tabs in the editor
     "tab.inactiveBackground": "#23110f",
+    // Border color for the terminal window
     "terminal.border": "#381e3a",
-    "terminal.background": "#05121a",
+    // Background color for the terminal
+    "terminal.background": "#0c1021",
+    // Background color of the status bar at the bottom of the window
     "statusBar.background": "#2d0f0c",
-    "scrollbarSlider.background": "#0f580f",
+    // Color of the scrollbar slider
+    "scrollbarSlider.background": "#28c91641",
+    // Color of the scrollbar slider when hovered
     "scrollbarSlider.hoverBackground": "#706fd3",
-    "editor.background": "#05121a42",
-    "breadcrumb.background": "#000000"
+    // Background color of the editor area (where code is written)
+    "editor.background": "#0c1021",
+    // Background color of the editor gutter (area showing line numbers)
+    "editorGutter.background": "#0c1021",
+    // Color of the line numbers in the editor
+    "editorLineNumber.foreground": "#5c5c5c",
+    // Color of the active line number in the editor
+    "editorLineNumber.activeForeground": "#a6e22e",
+    // Background color of the breadcrumb area (showing the file structure)
+    "breadcrumb.background": "#000000",
+    // Foreground color of the active panel title (e.g., active editor panel)
+    "panelTitle.activeForeground": "#12e52e",
+    // Foreground color of the inactive panel title (e.g., inactive editor panel)
+    "panelTitle.inactiveForeground": "#e21d3b",
+    // Background color of the panels (Terminal, Problems, Output, etc.)
+    "panel.background": "#011627",
+    // Foreground color for the terminal text
+    "terminal.foreground": "#19dbe5",
+    // Foreground color of the editor cursor (the caret/indicator in the text area)
+    "editorCursor.foreground": "#cd07f4"
   },
-  "editor.tokenColorCustomizations": {
-    "comments": "#b83d3da0"
-  },
+  // "editor.tokenColorCustomizations": {
+  //   "comments": "#fc5716ba"
+  // },
   "editor.linkedEditing": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
@@ -36,7 +65,6 @@
 
   "tabnine.experimentalAutoImports": true,
   "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Learn with Sumit Theme - Dracula version",
   //"workbench.colorTheme": "Learn with Sumit - Professional",
   "workbench.editor.enablePreview": false,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -81,5 +109,7 @@
     "HTML (EEx)",
     "HTML (Eex)",
     "plist"
-  ]
+  ],
+  "workbench.colorTheme": "Monokai Classic",
+  "editor.minimap.enabled": false
 }
